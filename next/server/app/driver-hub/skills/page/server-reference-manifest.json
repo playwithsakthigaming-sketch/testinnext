@@ -1,0 +1,49 @@
+{
+  "node": {
+    "40f1f199a825c96ed8f20260f98df34feda717d01a": {
+      "workers": {
+        "app/driver-hub/skills/page": {
+          "moduleId": "[project]/.next-internal/server/app/driver-hub/skills/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/driver-hub/skills/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/driver-hub/skills/page": "action-browser"
+      }
+    },
+    "40c467ffc042ad67e273122e2851b442988b351fd3": {
+      "workers": {
+        "app/driver-hub/skills/page": {
+          "moduleId": "[project]/.next-internal/server/app/driver-hub/skills/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/driver-hub/skills/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/driver-hub/skills/page": "action-browser"
+      }
+    },
+    "6005d8c8a61d2e21cc463582dacfe42321be5a2a59": {
+      "workers": {
+        "app/driver-hub/skills/page": {
+          "moduleId": "[project]/.next-internal/server/app/driver-hub/skills/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/driver-hub/skills/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/driver-hub/skills/page": "action-browser"
+      }
+    },
+    "006420113bd31cea2ae02d79a84d152f078c2a9d7c": {
+      "workers": {
+        "app/driver-hub/skills/page": {
+          "moduleId": "[project]/.next-internal/server/app/driver-hub/skills/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/driver-hub/skills/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/driver-hub/skills/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

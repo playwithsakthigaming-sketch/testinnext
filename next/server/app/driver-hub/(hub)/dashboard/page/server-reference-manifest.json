@@ -1,0 +1,27 @@
+{
+  "node": {
+    "40f1f199a825c96ed8f20260f98df34feda717d01a": {
+      "workers": {
+        "app/driver-hub/(hub)/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/driver-hub/(hub)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/driver-hub/(hub)/dashboard/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/driver-hub/(hub)/dashboard/page": "action-browser"
+      }
+    },
+    "0014a8c6ac14fe19955beb2c174b619092530dd857": {
+      "workers": {
+        "app/driver-hub/(hub)/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/driver-hub/(hub)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/driver-hub/(hub)/dashboard/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/driver-hub/(hub)/dashboard/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,38 @@
+{
+  "node": {
+    "40f1f199a825c96ed8f20260f98df34feda717d01a": {
+      "workers": {
+        "app/admin/news/edit/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/news/edit/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/news/edit/[id]/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/news/edit/[id]/page": "action-browser"
+      }
+    },
+    "405fd330734d17676d936f280e25da941917d157d3": {
+      "workers": {
+        "app/admin/news/edit/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/news/edit/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/news/edit/[id]/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/news/edit/[id]/page": "rsc"
+      }
+    },
+    "60c64dadce36e3160b02ccc77784819202a911f534": {
+      "workers": {
+        "app/admin/news/edit/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/news/edit/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/news/edit/[id]/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/news/edit/[id]/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

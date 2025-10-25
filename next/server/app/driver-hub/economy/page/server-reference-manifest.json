@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40f1f199a825c96ed8f20260f98df34feda717d01a": {
+      "workers": {
+        "app/driver-hub/economy/page": {
+          "moduleId": "[project]/.next-internal/server/app/driver-hub/economy/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/driver-hub/economy/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

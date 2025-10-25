@@ -1,0 +1,60 @@
+{
+  "node": {
+    "004b3fb709195eed22eac8e785e7059b95b66e3420": {
+      "workers": {
+        "app/admin/events/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/events/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/events/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/events/page": "rsc"
+      }
+    },
+    "006fd5123608df075d1d2146e845af27401e37789e": {
+      "workers": {
+        "app/admin/events/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/events/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/events/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/events/page": "action-browser"
+      }
+    },
+    "402871e0af245bde1406e900462418780ab3c85a1b": {
+      "workers": {
+        "app/admin/events/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/events/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/events/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/events/page": "action-browser"
+      }
+    },
+    "40522eae7f8a25ac6f49e8d0396c7dae36996defb6": {
+      "workers": {
+        "app/admin/events/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/events/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/events/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/events/page": "action-browser"
+      }
+    },
+    "40687dd3352654cefb53fb85dc74016c95ed31b2df": {
+      "workers": {
+        "app/admin/events/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/events/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/events/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/events/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

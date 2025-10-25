@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40fd4297d0ee03e0f048c25cec0c7fdd31c36392c2": {
+      "workers": {
+        "app/driver-hub/profile/page": {
+          "moduleId": "[project]/.next-internal/server/app/driver-hub/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/driver-hub/profile/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/driver-hub/profile/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

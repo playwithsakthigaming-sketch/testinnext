@@ -1,0 +1,312 @@
+module.exports = {
+
+"[project]/src/components/ui/card.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "Card": (()=>Card),
+    "CardContent": (()=>CardContent),
+    "CardDescription": (()=>CardDescription),
+    "CardFooter": (()=>CardFooter),
+    "CardHeader": (()=>CardHeader),
+    "CardTitle": (()=>CardTitle)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/utils.ts [app-ssr] (ecmascript)");
+;
+;
+;
+const Card = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("rounded-lg border bg-card text-card-foreground shadow-sm", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 9,
+        columnNumber: 3
+    }, this));
+Card.displayName = "Card";
+const CardHeader = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("flex flex-col space-y-1.5 p-6", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 24,
+        columnNumber: 3
+    }, this));
+CardHeader.displayName = "CardHeader";
+const CardTitle = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("text-2xl font-semibold leading-none tracking-tight", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 36,
+        columnNumber: 3
+    }, this));
+CardTitle.displayName = "CardTitle";
+const CardDescription = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("text-sm text-muted-foreground", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 51,
+        columnNumber: 3
+    }, this));
+CardDescription.displayName = "CardDescription";
+const CardContent = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("p-6 pt-0", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 63,
+        columnNumber: 3
+    }, this));
+CardContent.displayName = "CardContent";
+const CardFooter = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("flex items-center p-6 pt-0", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 71,
+        columnNumber: 3
+    }, this));
+CardFooter.displayName = "CardFooter";
+;
+}}),
+"[project]/src/lib/events.json (json)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v(JSON.parse("{\"events\":[{\"id\":\"31441\",\"imageId\":\"event-31441\",\"title\":\"Saffron Line CC - December Convoy\",\"url\":\"https://truckersmp.com/events/31441-saffron-line-cc--december-convoy\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"09.12.2025 | 11:30 UTC\",\"meetupTime\":\"09.12.2025 | 11:30 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Company Slots (Geneva)\",\"arrival\":\"Stein Bruch (Munich)\",\"server\":\"To be determined\"},{\"id\":\"26148\",\"imageId\":\"event-26148\",\"title\":\"🎉Legacy Transport [LTVTC] 1st Anniversary Convoy🎉\",\"url\":\"https://truckersmp.com/events/26148-%F0%9F%8E%89legacy-transport%5Bltvtc%5D1st-anniversary-convoy%F0%9F%8E%89\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"25.10.2025 | 12:00 UTC\",\"meetupTime\":\"25.10.2025 | 12:00 UTC\",\"departureTime\":\"25.10.2025 | 13:00 UTC\",\"slots\":[],\"departure\":\"Slot (Munich)\",\"arrival\":\"Terminal Container Port (Trieste)\",\"server\":\"Event Server\",\"routeMapUrl\":\"\"},{\"id\":\"31423\",\"imageId\":\"event-31423\",\"title\":\"TruckersMP's Halloween Experience\",\"url\":\"https://truckersmp.com/events/31423-truckersmp%27s-halloween-experience\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"25.10.2025 | 15:00 UTC\",\"meetupTime\":\"25.10.2025 | 15:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Frankfurt, Strasburg or Liege (Other)\",\"arrival\":\"Frankfurt, Strasburg or Liege (Other)\",\"server\":\"Event Server\"},{\"id\":\"28917\",\"imageId\":\"event-28917\",\"title\":\"CN XM Team Convoy#14\",\"url\":\"https://truckersmp.com/events/28917-cn-xm-team-convoy#14\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"14.11.2025 | 11:00 UTC\",\"meetupTime\":\"14.11.2025 | 11:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Slot (Leipzig)\",\"arrival\":\"All city where no collision (Duisburg)\",\"server\":\"Event Server\"},{\"id\":\"29157\",\"imageId\":\"event-29157\",\"title\":\"INDIAN CARRIERS DECEMBER PUBLIC CONVOY 2025\",\"url\":\"https://truckersmp.com/events/29157-indian-carriers-december-public-convoy2025\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"14.12.2025 | 14:00 UTC\",\"meetupTime\":\"14.12.2025 | 14:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Slots (Cardiff)\",\"arrival\":\"Port (Newcastle upon Tyne)\",\"server\":\"To be determined\"},{\"id\":\"27037\",\"imageId\":\"event-27037\",\"title\":\"ETS2MCG Christmas Convoy\",\"url\":\"https://truckersmp.com/events/27037-ets2mcg-christmas-convoy\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"21.12.2025 | 12:00 UTC\",\"meetupTime\":\"21.12.2025 | 12:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"City (TruckersMP HQ)\",\"arrival\":\"Quarry (Prague)\",\"server\":\"To be determined\"},{\"id\":\"31176\",\"imageId\":\"event-31176\",\"title\":\"SFMPDL X Indian Carriers Partner Ship Convoy\",\"url\":\"https://truckersmp.com/events/31176-sfmpdl-x-indian-carriers-partner-ship-convoy\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"10.02.2026 | 16:00 UTC\",\"meetupTime\":\"10.02.2026 | 16:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Slots (Geneva)\",\"arrival\":\"Euro Goodies (Innsbruck)\",\"server\":\"To be determined\"},{\"id\":\"29795\",\"imageId\":\"event-29795\",\"title\":\"KERALA ROADRUNNERS NOVEMBER VOYAGE\",\"url\":\"https://truckersmp.com/events/29795-kerala-roadrunners-november-voyage\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"01.11.2025 | 14:00 UTC\",\"meetupTime\":\"01.11.2025 | 14:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"SLOTS (Nuremberg)\",\"arrival\":\"Tree ET (Bern)\",\"server\":\"To be determined\"},{\"id\":\"31266\",\"imageId\":\"event-31266\",\"title\":\"NOVEMBER DRIVE: BOUND BY BROTHERHOOD\",\"url\":\"https://truckersmp.com/events/31266-november-drive:-bound-by-brotherhood\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"20.11.2025 | 12:00 UTC\",\"meetupTime\":\"20.11.2025 | 12:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"SLOTS (Rostock)\",\"arrival\":\"STEIN BRUCH (Prague)\",\"server\":\"To be determined\"},{\"id\":\"31042\",\"imageId\":\"event-31042\",\"title\":\"Ouka Logistics March Event #3\",\"url\":\"https://truckersmp.com/events/31042-ouka-logistics-march-event#3\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"28.03.2026 | 12:00 UTC\",\"meetupTime\":\"28.03.2026 | 12:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"slot (Dover)\",\"arrival\":\"Stein Bruch (Glasgow)\",\"server\":\"To be determined\"},{\"id\":\"31031\",\"imageId\":\"event-31031\",\"title\":\"INDIAN CARRIERS JANUARY PUBLIC CONVOY 2026\",\"url\":\"https://truckersmp.com/events/31031-indian-carriers-january-public-convoy2026\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"02.01.2026 | 13:30 UTC\",\"meetupTime\":\"02.01.2026 | 13:30 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Slots (Calais)\",\"arrival\":\"Stein Bruch (Mannheim)\",\"server\":\"To be determined\"},{\"id\":\"29346\",\"imageId\":\"event-29346\",\"title\":\"4° Anniversary MT Logistica\",\"url\":\"https://truckersmp.com/events/29346-4%C2%B0-anniversary-mt-logistica\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"08.03.2026 | 13:30 UTC\",\"meetupTime\":\"08.03.2026 | 13:30 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Città / Slot (Düsseldorf)\",\"arrival\":\"Steinbruch (Strasbourg)\",\"server\":\"To be determined\"},{\"id\":\"30916\",\"imageId\":\"event-30916\",\"title\":\"🎉 Lumo Haul 1st Anniversary 🎉\",\"url\":\"https://truckersmp.com/events/30916-%F0%9F%8E%89-lumo-haul1st-anniversary%F0%9F%8E%89\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"21.03.2026 | 13:30 UTC\",\"meetupTime\":\"21.03.2026 | 13:30 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Slots (Munich)\",\"arrival\":\"Steinbruch (Strasbourg)\",\"server\":\"To be determined\"},{\"id\":\"29156\",\"imageId\":\"event-29156\",\"title\":\"INDIAN CARRIERS NOVEMBER PUBLIC CONVOY 2025\",\"url\":\"https://truckersmp.com/events/29156-indian-carriers-november-public-convoy2025\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"15.11.2025 | 12:00 UTC\",\"meetupTime\":\"15.11.2025 | 12:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Slots (Frankfurt am Main)\",\"arrival\":\"Rest Area (Travemünde)\",\"server\":\"To be determined\"},{\"id\":\"24964\",\"imageId\":\"event-24964\",\"title\":\"Nexon Logistics December Convoy #66\",\"url\":\"https://truckersmp.com/events/24964-nexon-logistics-december-convoy#66\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"06.12.2025 | 12:00 UTC\",\"meetupTime\":\"06.12.2025 | 12:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Slots (Iași)\",\"arrival\":\"Container Port (Burgas)\",\"server\":\"Event Server\"},{\"id\":\"30763\",\"imageId\":\"event-30763\",\"title\":\"Ouka Logistics 1st Anniversary Event\",\"url\":\"https://truckersmp.com/events/30763-ouka-logistics1st-anniversary-event\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"06.02.2026 | 12:30 UTC\",\"meetupTime\":\"06.02.2026 | 12:30 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"slot (Prague)\",\"arrival\":\"chanmey (Bern)\",\"server\":\"To be determined\"},{\"id\":\"30640\",\"imageId\":\"event-30640\",\"title\":\"Opening Convoy | Shine Media & Events\",\"url\":\"https://truckersmp.com/events/30640-opening-convoy|-shine-media&-events\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"10.01.2026 | 12:00 UTC\",\"meetupTime\":\"10.01.2026 | 12:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Booked Slots (London)\",\"arrival\":\"New Castle Port (Newcastle)\",\"server\":\"To be determined\"},{\"id\":\"30288\",\"imageId\":\"event-30288\",\"title\":\"Nexon Logistics February Convoy #70\",\"url\":\"https://truckersmp.com/events/30288-nexon-logistics-february-convoy#70\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"21.02.2026 | 12:00 UTC\",\"meetupTime\":\"21.02.2026 | 12:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Slots (Cologne)\",\"arrival\":\"City (Dijon)\",\"server\":\"To be determined\"},{\"id\":\"29938\",\"imageId\":\"event-29938\",\"title\":\"Saffron Line CC - Opening Convoy\",\"url\":\"https://truckersmp.com/events/29938-saffron-line-cc--opening-convoy\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"29.11.2025 | 14:00 UTC\",\"meetupTime\":\"29.11.2025 | 14:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Slots (Klagenfurt am Wörthersee)\",\"arrival\":\"Quarry (TruckersMP HQ)\",\"server\":\"Simulation 2\"},{\"id\":\"31204\",\"imageId\":\"event-31204\",\"title\":\"Nexus Transport October Odyssey\",\"url\":\"https://truckersmp.com/events/31204-nexus-transport-october-odyssey\",\"type\":\"partner\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"24.10.2025 | 12:00 UTC\",\"meetupTime\":\"24.10.2025 | 12:00 UTC\",\"departureTime\":\"24.10.2025 | 13:00 UTC\",\"slots\":[],\"departure\":\"Port (Calais)\",\"arrival\":\"Port (Kirkenes)\",\"server\":\"Event Server\",\"routeMapUrl\":\"https://static.truckersmp.com/images/event/route/31204.1759145518.png\"},{\"id\":\"31227\",\"imageId\":\"event-31227\",\"title\":\"Tamil Pasanga March 2026 Public Convoy\",\"url\":\"https://truckersmp.com/events/31227-tamil-pasanga-march2026-public-convoy\",\"type\":\"internal\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"29.03.2026 | 14:00 UTC\",\"meetupTime\":\"29.03.2026 | 14:00 UTC\",\"departureTime\":\"TBD\",\"slots\":[],\"departure\":\"Slots (Paris)\",\"arrival\":\"Stein Bruch (Mannheim)\",\"server\":\"To be determined\",\"routeMapUrl\":\"\"},{\"id\":\"31138\",\"imageId\":\"event-31138\",\"title\":\"Tamil Pasanga February 2026 Public Convoy\",\"url\":\"https://truckersmp.com/events/31138-tamil-pasanga-february2026-public-convoy\",\"type\":\"internal\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"28.02.2026 | 14:00 UTC\",\"meetupTime\":\"28.02.2026 | 14:00 UTC\",\"departureTime\":\"28.02.2026 | 15:00 UTC\",\"slots\":[],\"departure\":\"Slots (Bremen)\",\"arrival\":\"Stein Bruch (Reims)\",\"server\":\"To be determined\",\"routeMapUrl\":\"\"},{\"id\":\"30756\",\"imageId\":\"event-30756\",\"title\":\"Tamil Pasanga VTC 2026 Kickstart Convoy 🚛\",\"url\":\"https://truckersmp.com/events/30756\",\"type\":\"internal\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"24.01.2026 | 14:00 UTC\",\"meetupTime\":\"24.01.2026 | 14:00 UTC\",\"departureTime\":\"24.01.2026 | 15:00 UTC\",\"slots\":[{\"id\":\"slot-area-1761117649143\",\"areaName\":\"TruckersMP HQ (TruckersMP Building)\",\"imageUrl\":\"https://i.postimg.cc/5N9GyqmV/Truckers-MP-HQ-Truckers-MP-Building.png\",\"startSlot\":1,\"endSlot\":1,\"bookings\":[{\"id\":\"booking-1761119161363\",\"slotNumber\":1,\"vtcName\":\"Black Pearl Trucking Logistics\",\"status\":\"approved\"}]},{\"id\":\"slot-area-1761118034431\",\"areaName\":\"TruckersMP HQ (Kaarfor)\",\"imageUrl\":\"https://i.postimg.cc/K8HCdkBy/Truckers-MP-HQ-Kaarfor.png\",\"startSlot\":2,\"endSlot\":3,\"bookings\":[{\"id\":\"booking-1761119244164\",\"slotNumber\":2,\"vtcName\":\"indian carriers\",\"status\":\"approved\"},{\"id\":\"booking-1761119284839\",\"slotNumber\":3,\"vtcName\":\"Nexus Transport,\",\"status\":\"approved\"}]},{\"id\":\"slot-area-1761118278431\",\"areaName\":\"TruckersMP HQ (Trameri)\",\"imageUrl\":\"https://i.postimg.cc/WpwCsfg8/Truckers-MP-HQ-Trameri.png\",\"startSlot\":4,\"endSlot\":5,\"bookings\":[{\"id\":\"booking-1761119513108\",\"slotNumber\":4,\"vtcName\":\"NepPath,\",\"status\":\"approved\"}]},{\"id\":\"slot-area-1761118328823\",\"areaName\":\"TruckersMP HQ (Stokes)\",\"imageUrl\":\"https://i.postimg.cc/L52WzzKj/Truckers-MP-HQ-Stokes.png\",\"startSlot\":6,\"endSlot\":9,\"bookings\":[{\"id\":\"booking-1761119558655\",\"slotNumber\":5,\"vtcName\":\"Pean Logistics\",\"status\":\"approved\"},{\"id\":\"booking-1761119755706\",\"slotNumber\":8,\"vtcName\":\"Prime logistices\",\"status\":\"approved\"},{\"id\":\"booking-1761119782127\",\"slotNumber\":9,\"vtcName\":\"Ethereal Transport\",\"status\":\"approved\"},{\"id\":\"booking-1761120079974\",\"slotNumber\":7,\"vtcName\":\"Luma haul\",\"status\":\"approved\"},{\"id\":\"booking-1761120189022\",\"slotNumber\":6,\"vtcName\":\"Pean Logistices\",\"status\":\"approved\"}]},{\"id\":\"slot-area-1761118364423\",\"areaName\":\"TruckersMP HQ (Parking Area 1)\",\"imageUrl\":\"https://i.postimg.cc/YSLTkrzL/Truckers-MP-HQ-Parking-Lot.png\",\"startSlot\":10,\"endSlot\":21,\"bookings\":[]},{\"id\":\"slot-area-1761118397480\",\"areaName\":\"TruckersMP HQ (Recruitment Agency)\",\"imageUrl\":\"https://i.postimg.cc/V6jTrKTY/Truckers-MP-HQ-Recruitment-Agency.png\",\"startSlot\":22,\"endSlot\":22,\"bookings\":[]},{\"id\":\"slot-area-1761118424694\",\"areaName\":\"TruckersMP HQ (Parking Area 2)\",\"imageUrl\":\"https://i.postimg.cc/t4TLSt15/Truckers-MP-HQ-Parking-Lot-2.png\",\"startSlot\":23,\"endSlot\":26,\"bookings\":[]},{\"id\":\"slot-area-1761118459038\",\"areaName\":\"TruckersMP HQ (Subse)\",\"imageUrl\":\"https://i.postimg.cc/brgBLspW/Truckers-MP-HQ-Subse.png\",\"startSlot\":27,\"endSlot\":28,\"bookings\":[]},{\"id\":\"slot-area-1761118499887\",\"areaName\":\"TruckersMP HQ (ACC)\",\"imageUrl\":\"https://i.postimg.cc/zvrs0sWb/Truckers-MP-HQ-ACC.png\",\"startSlot\":29,\"endSlot\":31,\"bookings\":[]},{\"id\":\"slot-area-1761118526876\",\"areaName\":\"TruckersMP HQ (Railway Station)\",\"imageUrl\":\"https://i.postimg.cc/rm63wBfn/Truckers-MP-HQ-Railway-Station.png\",\"startSlot\":32,\"endSlot\":33,\"bookings\":[]},{\"id\":\"slot-area-1761118650422\",\"areaName\":\"TruckersMP HQ (Cargotras)\",\"imageUrl\":\"https://i.postimg.cc/595d6tdw/Truckers-MP-HQ-Cargotras.png\",\"startSlot\":34,\"endSlot\":35,\"bookings\":[]}],\"departure\":\"Slots (TruckersMP HQ)\",\"arrival\":\"Container Port (Bremen)\",\"server\":\"To be determined\",\"routeMapUrl\":\"https://static.truckersmp.com/images/event/map/30756.1757627576.png\"},{\"id\":\"30881\",\"imageId\":\"event-30881\",\"title\":\"Tamil Pasanga VTC December 2025 Public Convoy\",\"url\":\"https://truckersmp.com/events/30881-tamil-pasanga-vtc-december2025-public-convoy\",\"type\":\"internal\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"28.12.2025 | 14:00 UTC\",\"meetupTime\":\"28.12.2025 | 14:00 UTC\",\"departureTime\":\"28.12.2025 | 15:00 UTC\",\"slots\":[],\"departure\":\"Liverpool (Slots)\",\"arrival\":\"Glasgow (Stein Bruch)\",\"server\":\"Event Server\",\"routeMapUrl\":\"\"},{\"id\":\"30741\",\"imageId\":\"event-30741\",\"title\":\"Tamil Pasanga VTC November 2025 Public convoy\",\"url\":\"https://truckersmp.com/events/30741\",\"type\":\"internal\",\"description\":\"Event details automatically imported from TruckersMP.\",\"rules\":\"Standard TruckersMP rules apply.\",\"attendees\":0,\"vtcs\":0,\"date\":\"23.11.2025 | 14:00 UTC\",\"meetupTime\":\"23.11.2025 | 14:00 UTC\",\"departureTime\":\"23.11.2025 | 15:00 UTC\",\"slots\":[],\"departure\":\"Slots (Düsseldorf)\",\"arrival\":\"Rest Area (TruckersMP HQ)\",\"server\":\"Event Server\",\"routeMapUrl\":\"https://media.discordapp.net/attachments/1421178248888062003/1431602700388991056/route.png?ex=68f23f3e&is=68f0edbe&hm=214041d4411c5211a7b458b093404c0d1656c175390772f7a07535b448b11a91&=&format=webp&quality=lossless\"},{\"id\":\"30733\",\"title\":\"Tamil Pasanga VTC October 2025 Public Convoy\",\"date\":\"26.10.2025 | 10:30 UTC\",\"imageId\":\"event-october-2025\",\"url\":\"https://truckersmp.com/events/30733-tamil-pasanga-vtc-october2025-public-convoy\",\"routeMapUrl\":\"https://media.discordapp.net/attachments/1421178248888062003/1421370211536732180/route.png?ex=68d83155&is=68d6dfd5&hm=0055a47895e6f3322f256c70313f89e248a39a6ba2c72b226e6d1b110f00f07b&=&format=webp&quality=lossless\",\"type\":\"internal\",\"attendees\":0,\"vtcs\":0,\"departure\":\"Calais\",\"arrival\":\"Mannheim\",\"server\":\"Event Server\",\"meetupTime\":\"26.10.2025 | 10:30 UTC\",\"departureTime\":\"26.10.2025 | 11:30 UTC\",\"description\":\"We are pleased to announce that our community will be hosting a convoy this October, and we warmly invite fellow VTC members to join us for this exciting event. Your participation will not only enhance the experience but also help us create lasting memories together. Let’s ride united and make this convoy a truly unforgettable one.\",\"rules\":\"TMP Guidelines apply. If you plan to participate, kindly mark your VTC’s presence on the official event page to help us coordinate effectively and ensure a smooth experience for all attendees. For our Smooth Operation of our convoy this Event is Supervised by Drive Along\",\"slots\":[]}]}"));}}),
+"[externals]/next/dist/server/app-render/action-async-storage.external.js [external] (next/dist/server/app-render/action-async-storage.external.js, cjs)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+const mod = __turbopack_context__.x("next/dist/server/app-render/action-async-storage.external.js", () => require("next/dist/server/app-render/action-async-storage.external.js"));
+
+module.exports = mod;
+}}),
+"[externals]/next/dist/server/app-render/work-unit-async-storage.external.js [external] (next/dist/server/app-render/work-unit-async-storage.external.js, cjs)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+const mod = __turbopack_context__.x("next/dist/server/app-render/work-unit-async-storage.external.js", () => require("next/dist/server/app-render/work-unit-async-storage.external.js"));
+
+module.exports = mod;
+}}),
+"[externals]/next/dist/server/app-render/work-async-storage.external.js [external] (next/dist/server/app-render/work-async-storage.external.js, cjs)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+const mod = __turbopack_context__.x("next/dist/server/app-render/work-async-storage.external.js", () => require("next/dist/server/app-render/work-async-storage.external.js"));
+
+module.exports = mod;
+}}),
+"[project]/src/lib/date-utils.ts [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "formatDateTimeFromISO": (()=>formatDateTimeFromISO),
+    "parseDateTimeString": (()=>parseDateTimeString),
+    "parseEventDate": (()=>parseEventDate)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$lib$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/zod/lib/index.mjs [app-ssr] (ecmascript)");
+;
+const parseEventDate = (dateTimeStr)=>{
+    if (!dateTimeStr) return null;
+    if (dateTimeStr.includes(' | ')) {
+        const parts = dateTimeStr.split(' | ');
+        const datePart = parts[0];
+        const timePart = parts[1];
+        const dateMatch = datePart.match(/(\d{2})\.(\d{2})\.(\d{4})/);
+        if (!dateMatch) return null;
+        const [, day, month, year] = dateMatch.map(Number);
+        const timeMatch = timePart.match(/(\d{2}):(\d{2})/);
+        if (!timeMatch) return null;
+        const [hour, minute] = timeMatch.slice(1).map(Number);
+        if (isNaN(day) || isNaN(month) || isNaN(year) || isNaN(hour) || isNaN(minute)) {
+            return null;
+        }
+        return new Date(Date.UTC(year, month - 1, day, hour, minute));
+    }
+    // Fallback for ISO string or other parsable formats
+    try {
+        const date = new Date(dateTimeStr);
+        if (!isNaN(date.getTime())) {
+            return date;
+        }
+    } catch (e) {
+        return null;
+    }
+    return null;
+};
+const timeSchema = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$lib$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["z"].object({
+    hour: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$lib$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["z"].string(),
+    minute: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$lib$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["z"].string(),
+    timezone: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$lib$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["z"].string()
+});
+const parseDateTimeString = (dateTimeStr)=>{
+    const defaultTime = {
+        hour: '13',
+        minute: '00',
+        timezone: 'UTC'
+    };
+    if (!dateTimeStr) {
+        return {
+            date: new Date(),
+            time: defaultTime
+        };
+    }
+    const date = parseEventDate(dateTimeStr);
+    if (date && !isNaN(date.getTime())) {
+        const hour = String(date.getUTCHours()).padStart(2, '0');
+        const minute = String(date.getUTCMinutes()).padStart(2, '0');
+        const timePartMatch = dateTimeStr.match(/\d{2}:\d{2}\s?(\w+)?/);
+        const timezone = timePartMatch?.[1] || 'UTC';
+        return {
+            date: new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()),
+            time: {
+                hour,
+                minute,
+                timezone
+            }
+        };
+    }
+    return {
+        date: new Date(),
+        time: defaultTime
+    };
+};
+const formatDateTimeFromISO = (isoString)=>{
+    if (!isoString || isoString.includes('NaN')) {
+        return 'TBD';
+    }
+    try {
+        const date = new Date(isoString);
+        if (isNaN(date.getTime())) {
+            return 'TBD';
+        }
+        const day = String(date.getUTCDate()).padStart(2, '0');
+        const month = String(date.getUTCMonth() + 1).padStart(2, '0');
+        const year = date.getUTCFullYear();
+        const hour = String(date.getUTCHours()).padStart(2, '0');
+        const minute = String(date.getUTCMinutes()).padStart(2, '0');
+        return `${day}.${month}.${year} | ${hour}:${minute} UTC`;
+    } catch (e) {
+        return 'TBD';
+    }
+};
+}}),
+"[project]/src/app/driver-hub/events/page.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>DriverHubEventsPage)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/card.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$fullcalendar$2f$react$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@fullcalendar/react/dist/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$fullcalendar$2f$daygrid$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@fullcalendar/daygrid/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$fullcalendar$2f$timegrid$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@fullcalendar/timegrid/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$events$2e$json__$28$json$29$__ = __turbopack_context__.i("[project]/src/lib/events.json (json)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$date$2d$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/date-utils.ts [app-ssr] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+function DriverHubEventsPage() {
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
+    const formattedEvents = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$events$2e$json__$28$json$29$__["default"].events.map((event)=>{
+        const start = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$date$2d$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["parseEventDate"])(event.meetupTime);
+        const isInternal = event.type === 'internal';
+        return {
+            title: event.title,
+            start: start || new Date(event.date),
+            allDay: false,
+            extendedProps: {
+                id: event.id
+            },
+            backgroundColor: isInternal ? 'hsl(var(--primary))' : 'hsl(var(--secondary))',
+            borderColor: isInternal ? 'hsl(var(--primary))' : 'hsl(var(--secondary))'
+        };
+    }).filter((e)=>e.start !== null);
+    const handleEventClick = (clickInfo)=>{
+        const eventId = clickInfo.event.extendedProps.id;
+        router.push(`/driver-hub/events/${eventId}`);
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "p-4 md:p-8",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
+                className: "p-4",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$fullcalendar$2f$react$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                    plugins: [
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$fullcalendar$2f$daygrid$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$fullcalendar$2f$timegrid$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+                    ],
+                    initialView: "dayGridMonth",
+                    headerToolbar: {
+                        left: 'prev,next today',
+                        center: 'title',
+                        right: 'dayGridMonth,timeGridWeek,timeGridDay closeButton'
+                    },
+                    customButtons: {
+                        closeButton: {
+                            text: 'Close',
+                            click: ()=>router.push('/driver-hub')
+                        }
+                    },
+                    events: formattedEvents,
+                    eventClick: handleEventClick,
+                    height: "auto",
+                    contentHeight: "auto",
+                    aspectRatio: 1.5,
+                    eventTimeFormat: {
+                        hour: 'numeric',
+                        minute: '2-digit',
+                        meridiem: 'short'
+                    }
+                }, void 0, false, {
+                    fileName: "[project]/src/app/driver-hub/events/page.tsx",
+                    lineNumber: 54,
+                    columnNumber: 22
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/driver-hub/events/page.tsx",
+                lineNumber: 53,
+                columnNumber: 17
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/driver-hub/events/page.tsx",
+            lineNumber: 52,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/app/driver-hub/events/page.tsx",
+        lineNumber: 51,
+        columnNumber: 9
+    }, this);
+}
+}}),
+
+};
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__6960d779._.js.map

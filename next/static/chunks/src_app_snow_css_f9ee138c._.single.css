@@ -1,0 +1,22 @@
+/* [project]/src/app/snow.css [app-client] (css) */
+.snowflake {
+  pointer-events: none;
+  z-index: 9999;
+  background: #fff;
+  border-radius: 50%;
+  animation: linear infinite fall;
+  position: fixed;
+  top: -10vh;
+}
+
+@keyframes fall {
+  from {
+    transform: translateY(-10vh)translateX(0);
+  }
+
+  to {
+    transform: translateY(110vh)translateX(20vw);
+  }
+}
+
+/*# sourceMappingURL=src_app_snow_css_f9ee138c._.single.css.map*/

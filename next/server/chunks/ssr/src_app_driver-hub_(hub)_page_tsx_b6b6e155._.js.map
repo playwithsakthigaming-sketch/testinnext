@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/user/studio/src/app/driver-hub/%28hub%29/page.tsx"],"sourcesContent":["\n'use client';\n\nimport React from 'react';\nimport { useRouter } from 'next/navigation';\n\nexport default function DriverHubPage() {\n    const router = useRouter();\n\n    React.useEffect(() => {\n        router.replace('/driver-hub/profile');\n    }, [router]);\n\n    return (\n        <div className=\"p-4 md:p-8 space-y-8\">\n            <p>Redirecting to profile...</p>\n        </div>\n    );\n}\n\n    \n"],"names":[],"mappings":";;;;AAGA;AACA;AAHA;;;;AAKe,SAAS;IACpB,MAAM,SAAS,CAAA,GAAA,kIAAA,CAAA,YAAS,AAAD;IAEvB,qMAAA,CAAA,UAAK,CAAC,SAAS,CAAC;QACZ,OAAO,OAAO,CAAC;IACnB,GAAG;QAAC;KAAO;IAEX,qBACI,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC;sBAAE;;;;;;;;;;;AAGf","debugId":null}}]
+}

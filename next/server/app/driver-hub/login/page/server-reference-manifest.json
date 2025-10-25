@@ -1,0 +1,27 @@
+{
+  "node": {
+    "40f1f199a825c96ed8f20260f98df34feda717d01a": {
+      "workers": {
+        "app/driver-hub/login/page": {
+          "moduleId": "[project]/.next-internal/server/app/driver-hub/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/login/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/driver-hub/login/page": "action-browser"
+      }
+    },
+    "40bdc630fe2dc98cd4178806c1a585c01b57d7960b": {
+      "workers": {
+        "app/driver-hub/login/page": {
+          "moduleId": "[project]/.next-internal/server/app/driver-hub/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/login/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/driver-hub/login/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

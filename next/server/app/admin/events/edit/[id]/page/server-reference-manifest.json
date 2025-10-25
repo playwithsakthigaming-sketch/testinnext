@@ -1,0 +1,38 @@
+{
+  "node": {
+    "40f1f199a825c96ed8f20260f98df34feda717d01a": {
+      "workers": {
+        "app/admin/events/edit/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/events/edit/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/events/edit/[id]/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/events/edit/[id]/page": "action-browser"
+      }
+    },
+    "4090870073a3eca411ad2270ecd25a0f04272106b5": {
+      "workers": {
+        "app/admin/events/edit/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/events/edit/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/events/edit/[id]/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/events/edit/[id]/page": "rsc"
+      }
+    },
+    "60a3bdd83125085f8479c89e28a86f340987e6f4b1": {
+      "workers": {
+        "app/admin/events/edit/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/events/edit/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/admin/events/edit/[id]/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/events/edit/[id]/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

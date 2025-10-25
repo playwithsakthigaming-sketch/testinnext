@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/halloween.css"],"sourcesContent":[".pumpkin {\n  position: fixed;\n  top: -10vh;\n  pointer-events: none;\n  z-index: 9999;\n  animation: fall linear infinite;\n}\n\n@keyframes fall {\n  from {\n    transform: translateY(-10vh) translateX(0vw);\n  }\n  to {\n    transform: translateY(110vh) translateX(20vw);\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA"}}]
-}

@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file:///home/user/studio/src/components/app/current-year.tsx"],"sourcesContent":["\"use client\";\n\nimport { useState, useEffect } from \"react\";\n\nexport function CurrentYear() {\n    const [year, setYear] = useState<number | null>(null);\n\n    useEffect(() => {\n        setYear(new Date().getFullYear());\n    }, []);\n\n    if (!year) {\n        // Return a placeholder or null to avoid hydration mismatch\n        return null;\n    }\n\n    return <span>{year}</span>;\n}\n"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAIO,SAAS;IACZ,MAAM,CAAC,MAAM,QAAQ,GAAG,CAAA,GAAA,qMAAA,CAAA,WAAQ,AAAD,EAAiB;IAEhD,CAAA,GAAA,qMAAA,CAAA,YAAS,AAAD,EAAE;QACN,QAAQ,IAAI,OAAO,WAAW;IAClC,GAAG,EAAE;IAEL,IAAI,CAAC,MAAM;QACP,2DAA2D;QAC3D,OAAO;IACX;IAEA,qBAAO,8OAAC;kBAAM;;;;;;AAClB","debugId":null}}]
-}
